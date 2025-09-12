@@ -1,764 +1,728 @@
 eventos:
 - line: 1
-  reason: Conexión establecida a una IP externa conocida.
-  severity: informativo
+  reason: '''Intento de acceso no autorizado a la sección de administración del sitio
+    web.'''
+  severity: crítico
 - line: 2
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 3
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 4
-  reason: Usuario desconocido autenticado desde una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about'' usando curl.'''
+  severity: informativo
 - line: 5
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about'' usando curl.'''
+  severity: informativo
 - line: 6
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
+  severity: informativo
 - line: 7
-  reason: Conexión establecida a una IP externa conocida (DNS público).
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
   severity: informativo
 - line: 8
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 9
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 10
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 11
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 12
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 13
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
 - line: 14
-  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home'' usando curl.'''
+  severity: informativo
 - line: 15
-  reason: Intento de acceso no autorizado a un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
+  severity: informativo
 - line: 16
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 17
-  reason: Se utilizaron privilegios elevados en un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about'' usando Chrome.'''
+  severity: informativo
 - line: 18
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 19
-  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 20
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 21
-  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
 - line: 22
-  reason: Se inició el proceso sshd.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
   severity: informativo
 - line: 23
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 24
-  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 25
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 26
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 27
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 28
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
+  reason: '''Solicitud de un archivo que no existe (error 404).'''
+  severity: informativo
 - line: 29
-  reason: Se descargó un archivo a una ruta administrativa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 30
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando Chrome.'''
+  severity: informativo
 - line: 31
-  reason: Se descargó un archivo a una ubicación temporal.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
+  severity: informativo
 - line: 32
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 33
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 34
-  reason: Intento de acceso no autorizado a la carpeta .ssh.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
+  severity: informativo
 - line: 35
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 36
-  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 37
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 38
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 39
-  reason: Conexión establecida a una IP externa conocida.
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
   severity: informativo
 - line: 40
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 41
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 42
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Solicitud legítima de la página ''contact'' usando curl.'''
   severity: informativo
 - line: 43
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 44
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 45
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
   severity: informativo
 - line: 46
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 47
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud legítima de la página ''products''.'''
   severity: informativo
 - line: 48
-  reason: Apagado del sistema solicitado por un usuario desconocido.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 49
-  reason: Conexión establecida a una IP externa conocida.
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
   severity: informativo
 - line: 50
-  reason: Intento de acceso no autorizado a un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 51
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  reason: '''Intento de acceso no autorizado a la sección de administración del sitio
+    web.'''
   severity: crítico
 - line: 52
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 53
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 54
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
   severity: informativo
 - line: 55
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
   severity: informativo
 - line: 56
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 57
-  reason: Usuario desconocido autenticado desde una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 58
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
   severity: informativo
 - line: 59
-  reason: Usuario desconocido autenticado desde una IP externa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 60
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 61
-  reason: Intento de acceso no autorizado a una ruta administrativa.
+  reason: '''Ejecución de un comando sospechoso que descarga un script desde un dominio
+    malicioso.'''
   severity: crítico
 - line: 62
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 63
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 64
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 65
-  reason: Intento de acceso no autorizado a la carpeta .ssh.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 66
-  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 67
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 68
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 69
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 70
-  reason: Se inició el proceso sshd.
+  reason: '''Solicitud legítima de la página ''home'' usando curl.'''
   severity: informativo
 - line: 71
-  reason: Se ejecutó un comando sospechoso.
+  reason: '''Conexión de reverse shell iniciada, indicando posible compromiso del
+    sistema.'''
   severity: crítico
 - line: 72
-  reason: Apagado del sistema solicitado por un usuario.
+  reason: '''Solicitud de un archivo que no existe (error 404).'''
   severity: informativo
 - line: 73
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about'' usando Chrome.'''
+  severity: informativo
 - line: 74
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 75
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 76
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 77
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 78
-  reason: Se inició el proceso sshd.
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
   severity: informativo
 - line: 79
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 80
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando Chrome.'''
+  severity: informativo
 - line: 81
-  reason: Se utilizaron privilegios elevados en una ubicación sensible.
+  reason: '''Manipulación de logs detectada, lo que indica un posible intento de ocultación
+    de actividad maliciosa.'''
   severity: crítico
 - line: 82
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud legítima de la página ''contact'' usando Chrome.'''
   severity: informativo
 - line: 83
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 84
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 85
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 86
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 87
-  reason: Se inició el proceso sshd.
+  reason: '''Solicitud legítima de la página ''about'' usando Chrome.'''
   severity: informativo
 - line: 88
-  reason: Intento de acceso no autorizado a un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 89
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 90
-  reason: Conexión establecida a una IP externa conocida (DNS público).
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 91
-  reason: Se detectó manipulación de registros.
+  reason: '''Transferencia de datos a una dirección IP externa, posiblemente exfiltración
+    de datos.'''
   severity: crítico
 - line: 92
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 93
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 94
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
   severity: informativo
 - line: 95
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 96
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 97
-  reason: Conexión establecida a una IP externa.
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
   severity: informativo
 - line: 98
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
-- line: 99
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
-- line: 100
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
-- line: 101
-  reason: Conexión establecida a una IP externa conocida (DNS público).
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
+- line: 99
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
+- line: 100
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
+- line: 101
+  reason: '''Intento de acceso no autorizado a la sección de administración del sitio
+    web.'''
+  severity: crítico
 - line: 102
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
+  severity: informativo
 - line: 103
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 104
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando Chrome.'''
+  severity: informativo
 - line: 105
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
 - line: 106
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 107
-  reason: Se descargó un archivo a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 108
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 109
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 110
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 111
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 112
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 113
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 114
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
   severity: informativo
 - line: 115
-  reason: Apagado del sistema solicitado por un usuario.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 116
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
 - line: 117
-  reason: Intento de acceso no autorizado a un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 118
-  reason: Conexión establecida a una IP externa conocida (DNS público).
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
   severity: informativo
 - line: 119
-  reason: Usuario autenticado desde una IP externa.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 120
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 121
-  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  reason: '''Ejecución de un comando sospechoso que descarga un script desde un dominio
+    malicioso.'''
   severity: crítico
 - line: 122
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 123
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 124
-  reason: Transferencia de datos a una IP externa sospechosa.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 125
-  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 126
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 127
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
+  severity: informativo
 - line: 128
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 129
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 130
-  reason: Conexión establecida a una IP externa.
+  reason: '''Solicitud legítima de la página ''contact''.'''
   severity: informativo
 - line: 131
-  reason: Intento de acceso no autorizado a un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 132
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home'' usando curl.'''
+  severity: informativo
 - line: 133
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 134
-  reason: Se utilizaron privilegios elevados en una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
+  severity: informativo
 - line: 135
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about'' usando Chrome.'''
+  severity: informativo
 - line: 136
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 137
-  reason: Se inició el proceso sshd.
+  reason: '''Solicitud legítima de la página ''contact'' usando curl.'''
   severity: informativo
 - line: 138
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 139
-  reason: Apagado del sistema solicitado por un usuario.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 140
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 141
-  reason: Se detectó manipulación de registros.
+  reason: '''Conexión de reverse shell iniciada, indicando posible compromiso del
+    sistema.'''
   severity: crítico
 - line: 142
-  reason: Se utilizaron privilegios elevados en un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud de un archivo que no existe (error 404).'''
+  severity: informativo
 - line: 143
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 144
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
+  severity: informativo
 - line: 145
-  reason: Se descargó un archivo a una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 146
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 147
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 148
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 149
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 150
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 151
-  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  reason: '''Intento de acceso no autorizado a la sección de administración del sitio
+    web.'''
   severity: crítico
 - line: 152
-  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 153
-  reason: Transferencia de datos a una IP externa sospechosa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 154
-  reason: Se inició el proceso curl.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 155
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 156
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 157
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 158
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 159
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 160
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud legítima de la página ''products''.'''
   severity: informativo
 - line: 161
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  reason: '''Manipulación de logs detectada, lo que indica un posible intento de ocultación
+    de actividad maliciosa.'''
   severity: crítico
 - line: 162
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 163
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 164
-  reason: Usuario autenticado desde una IP externa.
+  reason: '''Solicitud legítima de la página ''products''.'''
   severity: informativo
 - line: 165
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
   severity: informativo
 - line: 166
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 167
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
+  severity: informativo
 - line: 168
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 169
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home'' usando curl.'''
+  severity: informativo
 - line: 170
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 171
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 172
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 173
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 174
-  reason: Intento de acceso no autorizado a un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 175
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 176
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 177
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 178
-  reason: Conexión establecida a una IP externa conocida.
+  reason: '''Solicitud legítima del archivo CSS del sitio web usando curl.'''
   severity: informativo
 - line: 179
-  reason: Apagado del sistema solicitado por un usuario desconocido.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 180
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 181
-  reason: Se descargó un archivo a una ruta administrativa.
+  reason: '''Ejecución de un comando sospechoso que descarga un script desde un dominio
+    malicioso.'''
   severity: crítico
 - line: 182
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 183
-  reason: Transferencia de datos a una IP externa sospechosa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 184
-  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 185
-  reason: Usuario autenticado desde una IP externa sospechosa.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
   severity: informativo
 - line: 186
-  reason: Conexión establecida a una IP externa.
+  reason: '''Solicitud legítima de la página ''contact''.'''
   severity: informativo
 - line: 187
-  reason: Intento de acceso no autorizado a una ruta administrativa.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''products''.'''
+  severity: informativo
 - line: 188
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando curl.'''
+  severity: informativo
 - line: 189
-  reason: Apagado del sistema solicitado por un usuario.
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
   severity: informativo
 - line: 190
-  reason: Conexión establecida a una IP externa.
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
   severity: informativo
 - line: 191
-  reason: Conexión establecida a una IP externa conocida.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 192
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 193
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 194
-  reason: Intento de acceso no autorizado a un archivo sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 195
-  reason: Apagado del sistema solicitado por un usuario.
+  reason: '''Error interno del servidor (error 500) al solicitar la página principal.'''
   severity: informativo
 - line: 196
-  reason: Conexión establecida a una IP externa sospechosa.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 197
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 198
-  reason: Intento de acceso no autorizado a la carpeta .ssh.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 199
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 200
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''contact''.'''
+  severity: informativo
 - line: 201
-  reason: Intento de acceso no autorizado a un archivo sensible.
+  reason: '''Intento de acceso no autorizado a la sección de administración del sitio
+    web.'''
   severity: crítico
 - line: 202
-  reason: Se inició el proceso curl.
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
   severity: informativo
 - line: 203
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 204
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando curl.'''
+  severity: informativo
 - line: 205
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar el archivo CSS.'''
+  severity: informativo
 - line: 206
-  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''about''.'''
+  severity: informativo
 - line: 207
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 208
-  reason: Se descargó un archivo a una ubicación temporal.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 209
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud legítima de la página ''about''.'''
   severity: informativo
 - line: 210
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud de un archivo que no existe (error 404).'''
+  severity: informativo
 - line: 211
-  reason: Se descargó un archivo a una ubicación temporal.
+  reason: '''Conexión de reverse shell iniciada, indicando posible compromiso del
+    sistema.'''
   severity: crítico
 - line: 212
-  reason: Transferencia de datos a una IP externa sospechosa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando Chrome.'''
+  severity: informativo
 - line: 213
-  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home'' usando curl.'''
+  severity: informativo
 - line: 214
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products''.'''
+  severity: informativo
 - line: 215
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 216
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact''.'''
+  severity: informativo
 - line: 217
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web usando curl.'''
+  severity: informativo
 - line: 218
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
   severity: informativo
 - line: 219
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''contact'' usando curl.'''
+  severity: informativo
 - line: 220
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''home''.'''
+  severity: informativo
 - line: 221
-  reason: Se inició el proceso sshd.
+  reason: '''Solicitud legítima de la página ''products'' usando curl.'''
   severity: informativo
 - line: 222
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
+  severity: informativo
 - line: 223
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
+  severity: informativo
 - line: 224
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 225
-  reason: Conexión establecida a una IP externa.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 226
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 227
-  reason: Se utilizaron privilegios elevados en una ruta administrativa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 228
-  reason: Se detectó manipulación de registros.
-  severity: crítico
+  reason: '''Solicitud de una página que no existe (error 404).'''
+  severity: informativo
 - line: 229
-  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
-  severity: crítico
+  reason: '''Solicitud legítima de la página principal del sitio web.'''
+  severity: informativo
 - line: 230
-  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''products'' usando Chrome.'''
+  severity: informativo
 - line: 231
-  reason: Apagado del sistema solicitado por un administrador.
+  reason: '''Solicitud legítima del archivo CSS del sitio web.'''
   severity: informativo
 - line: 232
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 233
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 234
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Solicitud legítima de la página ''home''.'''
+  severity: informativo
 - line: 235
-  reason: Apagado del sistema solicitado por un servicio.
+  reason: '''Solicitud legítima de la página ''home''.'''
   severity: informativo
 - line: 236
-  reason: Usuario autenticado desde una IP interna.
+  reason: '''Solicitud de una página que no existe (error 404).'''
   severity: informativo
 - line: 237
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
+  reason: '''Error interno del servidor (error 500) al solicitar la página ''about''.'''
+  severity: informativo
 - line: 238
-  reason: Conexión establecida a una IP externa conocida (DNS público).
   severity: informativo
-- line: 239
-  reason: Conexión establecida a una IP externa sospechosa.
-  severity: informativo
-- line: 240
-  reason: Se inició el proceso sshd.
-  severity: informativo
-- line: 241
-  reason: Transferencia de datos a una IP externa.
-  severity: crítico
-- line: 242
-  reason: Transferencia de datos a una IP externa sospechosa.
-  severity: crítico
-- line: 243
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
-- line: 244
-  reason: Se ejecutó un comando sospechoso.
-  severity: crítico
-- line: 245
-  reason: Se utilizaron privilegios elevados en una ubicación sensible.
-  severity: crítico
-- line: 246
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
-- line: 247
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
-- line: 248
-  reason: Se descargó un archivo a una ubicación sensible.
-  severity: crítico
-- line: 249
-  reason: Se ejecutó un comando sospechoso para descargar un binario.
-  severity: crítico
-- line: 250
-  reason: Apagado del sistema solicitado por un administrador.
-  severity: informativo
-- line: 251
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
-- line: 252
-  reason: Se inició una conexión de reverse shell.
-  severity: crítico
-- line: 253
-  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
-  severity: crítico
-- line: 254
-  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
-  severity: crítico
-- line: null

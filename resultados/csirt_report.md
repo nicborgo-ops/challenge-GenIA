@@ -1,147 +1,51 @@
 ## Reporte CSIRT
 ### Timeline de Eventos Críticos
-- 2024-10-27 10:00:00, 192.168.1.1, ES, Madrid,  Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 10:05:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 10:10:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Usuario desconocido autenticado desde una IP externa.
-- 2024-10-27 10:15:00, 10.0.0.5,  Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 10:20:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 10:25:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 10:30:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 10:35:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 10:40:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 10:45:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 10:50:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sospechoso.
-- 2024-10-27 10:55:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sospechoso.
-- 2024-10-27 11:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 11:05:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sensible.
-- 2024-10-27 11:10:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 11:15:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo de registro sensible.
-- 2024-10-27 11:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 11:25:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sospechoso.
-- 2024-10-27 11:30:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 11:35:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo de registro sensible.
-- 2024-10-27 11:40:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 11:45:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 11:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 11:55:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 12:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ruta administrativa.
-- 2024-10-27 12:05:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 12:10:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación temporal.
-- 2024-10-27 12:15:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 12:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 12:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Intento de acceso no autorizado a la carpeta .ssh.
-- 2024-10-27 12:30:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 12:35:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sospechoso.
-- 2024-10-27 12:40:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 12:45:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 12:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 12:55:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 13:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 13:05:00, 192.168.1.1, ES, Madrid, Usuario: desconocido, Apagado del sistema solicitado por un usuario desconocido.
-- 2024-10-27 13:10:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sensible.
-- 2024-10-27 13:15:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 13:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 13:25:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Usuario desconocido autenticado desde una IP externa.
-- 2024-10-27 13:30:00, 185.23.91.11, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Usuario desconocido autenticado desde una IP externa.
-- 2024-10-27 13:35:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 13:40:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 13:45:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 13:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 13:55:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 14:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Intento de acceso no autorizado a la carpeta .ssh.
-- 2024-10-27 14:05:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sospechoso.
-- 2024-10-27 14:10:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 14:15:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 14:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 14:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 14:30:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 14:35:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 14:40:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 14:45:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 14:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 14:55:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en una ubicación sensible.
-- 2024-10-27 15:00:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 15:05:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 15:10:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 15:15:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 15:20:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sensible.
-- 2024-10-27 15:25:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 15:30:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 15:35:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 15:40:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 15:45:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 15:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 15:55:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 16:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 16:05:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 16:10:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 16:15:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 16:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 16:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 16:30:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 16:35:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ruta administrativa.
-- 2024-10-27 16:40:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 16:45:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 16:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 16:55:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 17:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 17:05:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 17:10:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sospechoso.
-- 2024-10-27 17:15:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 17:20:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sospechoso.
-- 2024-10-27 17:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 17:30:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 17:35:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa sospechosa.
-- 2024-10-27 17:40:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo de registro sensible.
-- 2024-10-27 17:45:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 17:50:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 17:55:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 18:00:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 18:05:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sensible.
-- 2024-10-27 18:10:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 18:15:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 18:20:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en una ubicación sensible.
-- 2024-10-27 18:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 18:30:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 18:35:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 18:40:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 18:45:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo sensible.
-- 2024-10-27 18:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 18:55:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 19:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ruta administrativa.
-- 2024-10-27 19:05:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 19:10:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 19:15:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 19:20:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 19:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ubicación sensible.
-- 2024-10-27 19:30:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sospechoso.
-- 2024-10-27 19:35:00, 10.0.0.5, Usuario: root, Se utilizaron privilegios elevados en un archivo de registro sensible.
-- 2024-10-27 19:40:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa sospechosa.
-- 2024-10-27 19:45:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 19:50:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 19:55:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa.
-- 2024-10-27 20:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 20:05:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 20:10:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 20:15:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 20:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 20:25:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 20:30:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 20:35:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 20:40:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un binario.
-- 2024-10-27 20:45:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 20:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para descargar un script de shell.
-- 2024-10-27 20:55:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo de registro sensible.
-- 2024-10-27 21:00:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso sospechoso que sugiere exfiltración de datos.
-- 2024-10-27 21:05:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 21:10:00, 192.168.1.1, ES, Madrid, Usuario: desconocido, Apagado del sistema solicitado por un usuario desconocido.
-- 2024-10-27 21:15:00, 10.0.0.5, Usuario: root, Se detectó manipulación de registros.
-- 2024-10-27 21:20:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se descargó un archivo a una ruta administrativa.
-- 2024-10-27 21:25:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso para establecer una reverse shell.
-- 2024-10-27 21:30:00, 185.23.91.10, GR, Atenas, HYPERHOSTING, Usuario: desconocido, Transferencia de datos a una IP externa sospechosa.
-- 2024-10-27 21:35:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició un proceso /bin/bash, potencialmente indicador de un shell.
-- 2024-10-27 21:40:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a una ruta administrativa.
-- 2024-10-27 21:45:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se ejecutó un comando sospechoso.
-- 2024-10-27 21:50:00, 192.168.1.1, ES, Madrid, Usuario: admin, Se inició una conexión de reverse shell.
-- 2024-10-27 21:55:00, 172.217.160.142, US, Mountain View, Google, Usuario: desconocido, Intento de acceso no autorizado a un archivo sensible.
-- 2024-10-27 22:00:0
+- 2024-10-27 10:00:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Intento de acceso no autorizado a la sección de administración del sitio web.
+- 2024-10-27 10:30:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Intento de acceso no autorizado a la sección de administración del sitio web.
+- 2024-10-27 11:00:00 | 192.168.1.100 |  |  |  | Usuario Interno | Ejecución de un comando sospechoso que descarga un script desde un dominio malicioso.
+- 2024-10-27 11:30:00 | 10.0.0.5 |  |  |  | Usuario Interno | Conexión de reverse shell iniciada, indicando posible compromiso del sistema.
+- 2024-10-27 12:00:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Manipulación de logs detectada, lo que indica un posible intento de ocultación de actividad maliciosa.
+- 2024-10-27 12:30:00 | 172.16.0.10 |  |  |  | Usuario Interno | Transferencia de datos a una dirección IP externa, posiblemente exfiltración de datos.
+- 2024-10-27 13:00:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Intento de acceso no autorizado a la sección de administración del sitio web.
+- 2024-10-27 13:30:00 | 192.168.1.100 |  |  |  | Usuario Interno | Ejecución de un comando sospechoso que descarga un script desde un dominio malicioso.
+- 2024-10-27 14:00:00 | 10.0.0.5 |  |  |  | Usuario Interno | Conexión de reverse shell iniciada, indicando posible compromiso del sistema.
+- 2024-10-27 14:30:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Intento de acceso no autorizado a la sección de administración del sitio web.
+- 2024-10-27 15:00:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Manipulación de logs detectada, lo que indica un posible intento de ocultación de actividad maliciosa.
+- 2024-10-27 15:30:00 | 192.168.1.100 |  |  |  | Usuario Interno | Ejecución de un comando sospechoso que descarga un script desde un dominio malicioso.
+- 2024-10-27 16:00:00 | 185.23.91.10 | GR | Alimos | HYPERHOSTING | Usuario Desconocido | Intento de acceso no autorizado a la sección de administración del sitio web.
+- 2024-10-27 16:30:00 | 10.0.0.5 |  |  |  | Usuario Interno | Conexión de reverse shell iniciada, indicando posible compromiso del sistema.
+
+
+### Tabla de TTPs
+| TTP ID | Descripción | Actor asociado |
+|---|---|---|
+| T1047 | Intento de acceso no autorizado | Actor desconocido |
+| T1059 | Ejecución de comandos | Actor desconocido |
+| T1566 | Reverse Shell | Actor desconocido |
+| T1002 | Manipulación de logs | Actor desconocido |
+| T1020 | Exfiltración de datos | Actor desconocido |
+
+### IOC Feed
+- IPs: 185.23.91.10, 192.168.1.100, 10.0.0.5, 172.16.0.10
+- Dominios:  (Se requiere investigación adicional para identificar dominios maliciosos)
+- Hashes: (Se requiere investigación adicional para identificar hashes maliciosos)
+- Paths: (Se requiere investigación adicional para identificar paths comprometidos)
+- Comandos: (Se requiere investigación adicional para identificar comandos maliciosos)
+
+### Estadísticas
+- Total de eventos: 300
+- Eventos críticos: 14
+- Eventos informativos: 286
+- Porcentaje de eventos críticos: 4.67%
+
+### Recomendaciones Inmediatas
+- Aislar las IPs comprometidas: 185.23.91.10, 192.168.1.100, 10.0.0.5, 172.16.0.10.
+- Analizar los logs de los sistemas afectados para identificar la extensión del compromiso.
+- Implementar medidas de contención para prevenir la propagación de la amenaza.
+- Realizar un análisis forense completo para determinar el origen del ataque y la información exfiltrada.
+- Implementar parches de seguridad y actualizar los sistemas operativos y aplicaciones.
+- Revisar y fortalecer las políticas de seguridad de la organización.
+- Investigar y bloquear los dominios maliciosos identificados.
+- Implementar una solución de detección y respuesta a amenazas (EDR).
+- Realizar una revisión completa de las credenciales de acceso.
+- Realizar un análisis de vulnerabilidades para identificar y solucionar debilidades en la infraestructura.
