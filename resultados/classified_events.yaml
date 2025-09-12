@@ -1,0 +1,764 @@
+eventos:
+- line: 1
+  reason: Conexión establecida a una IP externa conocida.
+  severity: informativo
+- line: 2
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 3
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 4
+  reason: Usuario desconocido autenticado desde una IP externa.
+  severity: crítico
+- line: 5
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 6
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 7
+  reason: Conexión establecida a una IP externa conocida (DNS público).
+  severity: informativo
+- line: 8
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 9
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 10
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 11
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 12
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 13
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 14
+  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
+  severity: crítico
+- line: 15
+  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  severity: crítico
+- line: 16
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 17
+  reason: Se utilizaron privilegios elevados en un archivo sensible.
+  severity: crítico
+- line: 18
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 19
+  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
+  severity: crítico
+- line: 20
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 21
+  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
+  severity: crítico
+- line: 22
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 23
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 24
+  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
+  severity: crítico
+- line: 25
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 26
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 27
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 28
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 29
+  reason: Se descargó un archivo a una ruta administrativa.
+  severity: crítico
+- line: 30
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 31
+  reason: Se descargó un archivo a una ubicación temporal.
+  severity: crítico
+- line: 32
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 33
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 34
+  reason: Intento de acceso no autorizado a la carpeta .ssh.
+  severity: crítico
+- line: 35
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 36
+  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
+  severity: crítico
+- line: 37
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 38
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 39
+  reason: Conexión establecida a una IP externa conocida.
+  severity: informativo
+- line: 40
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 41
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 42
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 43
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 44
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 45
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 46
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 47
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 48
+  reason: Apagado del sistema solicitado por un usuario desconocido.
+  severity: crítico
+- line: 49
+  reason: Conexión establecida a una IP externa conocida.
+  severity: informativo
+- line: 50
+  reason: Intento de acceso no autorizado a un archivo sensible.
+  severity: crítico
+- line: 51
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 52
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 53
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 54
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 55
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 56
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 57
+  reason: Usuario desconocido autenticado desde una IP externa.
+  severity: crítico
+- line: 58
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 59
+  reason: Usuario desconocido autenticado desde una IP externa.
+  severity: crítico
+- line: 60
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 61
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 62
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 63
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 64
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 65
+  reason: Intento de acceso no autorizado a la carpeta .ssh.
+  severity: crítico
+- line: 66
+  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
+  severity: crítico
+- line: 67
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 68
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 69
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 70
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 71
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 72
+  reason: Apagado del sistema solicitado por un usuario.
+  severity: informativo
+- line: 73
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 74
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 75
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 76
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 77
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 78
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 79
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 80
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 81
+  reason: Se utilizaron privilegios elevados en una ubicación sensible.
+  severity: crítico
+- line: 82
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 83
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 84
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 85
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 86
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 87
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 88
+  reason: Intento de acceso no autorizado a un archivo sensible.
+  severity: crítico
+- line: 89
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 90
+  reason: Conexión establecida a una IP externa conocida (DNS público).
+  severity: informativo
+- line: 91
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 92
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 93
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 94
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 95
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 96
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 97
+  reason: Conexión establecida a una IP externa.
+  severity: informativo
+- line: 98
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 99
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 100
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 101
+  reason: Conexión establecida a una IP externa conocida (DNS público).
+  severity: informativo
+- line: 102
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 103
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 104
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 105
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 106
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 107
+  reason: Se descargó un archivo a una ruta administrativa.
+  severity: crítico
+- line: 108
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 109
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 110
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 111
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 112
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 113
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 114
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 115
+  reason: Apagado del sistema solicitado por un usuario.
+  severity: informativo
+- line: 116
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 117
+  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  severity: crítico
+- line: 118
+  reason: Conexión establecida a una IP externa conocida (DNS público).
+  severity: informativo
+- line: 119
+  reason: Usuario autenticado desde una IP externa.
+  severity: informativo
+- line: 120
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 121
+  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  severity: crítico
+- line: 122
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 123
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 124
+  reason: Transferencia de datos a una IP externa sospechosa.
+  severity: crítico
+- line: 125
+  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
+  severity: crítico
+- line: 126
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 127
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 128
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 129
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 130
+  reason: Conexión establecida a una IP externa.
+  severity: informativo
+- line: 131
+  reason: Intento de acceso no autorizado a un archivo sensible.
+  severity: crítico
+- line: 132
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 133
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 134
+  reason: Se utilizaron privilegios elevados en una ubicación sensible.
+  severity: crítico
+- line: 135
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 136
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 137
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 138
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 139
+  reason: Apagado del sistema solicitado por un usuario.
+  severity: informativo
+- line: 140
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 141
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 142
+  reason: Se utilizaron privilegios elevados en un archivo sensible.
+  severity: crítico
+- line: 143
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 144
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 145
+  reason: Se descargó un archivo a una ruta administrativa.
+  severity: crítico
+- line: 146
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 147
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 148
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 149
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 150
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 151
+  reason: Intento de acceso no autorizado a un archivo sospechoso.
+  severity: crítico
+- line: 152
+  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
+  severity: crítico
+- line: 153
+  reason: Transferencia de datos a una IP externa sospechosa.
+  severity: crítico
+- line: 154
+  reason: Se inició el proceso curl.
+  severity: informativo
+- line: 155
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 156
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 157
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 158
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 159
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 160
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 161
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 162
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 163
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 164
+  reason: Usuario autenticado desde una IP externa.
+  severity: informativo
+- line: 165
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 166
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 167
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 168
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 169
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 170
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 171
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 172
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 173
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 174
+  reason: Intento de acceso no autorizado a un archivo de registro sensible.
+  severity: crítico
+- line: 175
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 176
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 177
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 178
+  reason: Conexión establecida a una IP externa conocida.
+  severity: informativo
+- line: 179
+  reason: Apagado del sistema solicitado por un usuario desconocido.
+  severity: crítico
+- line: 180
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 181
+  reason: Se descargó un archivo a una ruta administrativa.
+  severity: crítico
+- line: 182
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 183
+  reason: Transferencia de datos a una IP externa sospechosa.
+  severity: crítico
+- line: 184
+  reason: Se inició un proceso /bin/bash, potencialmente indicador de un shell.
+  severity: crítico
+- line: 185
+  reason: Usuario autenticado desde una IP externa sospechosa.
+  severity: informativo
+- line: 186
+  reason: Conexión establecida a una IP externa.
+  severity: informativo
+- line: 187
+  reason: Intento de acceso no autorizado a una ruta administrativa.
+  severity: crítico
+- line: 188
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 189
+  reason: Apagado del sistema solicitado por un usuario.
+  severity: informativo
+- line: 190
+  reason: Conexión establecida a una IP externa.
+  severity: informativo
+- line: 191
+  reason: Conexión establecida a una IP externa conocida.
+  severity: informativo
+- line: 192
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 193
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 194
+  reason: Intento de acceso no autorizado a un archivo sensible.
+  severity: crítico
+- line: 195
+  reason: Apagado del sistema solicitado por un usuario.
+  severity: informativo
+- line: 196
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 197
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 198
+  reason: Intento de acceso no autorizado a la carpeta .ssh.
+  severity: crítico
+- line: 199
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 200
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 201
+  reason: Intento de acceso no autorizado a un archivo sensible.
+  severity: crítico
+- line: 202
+  reason: Se inició el proceso curl.
+  severity: informativo
+- line: 203
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 204
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 205
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 206
+  reason: Se ejecutó un comando sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 207
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 208
+  reason: Se descargó un archivo a una ubicación temporal.
+  severity: crítico
+- line: 209
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 210
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 211
+  reason: Se descargó un archivo a una ubicación temporal.
+  severity: crítico
+- line: 212
+  reason: Transferencia de datos a una IP externa sospechosa.
+  severity: crítico
+- line: 213
+  reason: Se utilizaron privilegios elevados en un archivo de registro sensible.
+  severity: crítico
+- line: 214
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 215
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 216
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 217
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 218
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 219
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 220
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 221
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 222
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 223
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 224
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 225
+  reason: Conexión establecida a una IP externa.
+  severity: informativo
+- line: 226
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 227
+  reason: Se utilizaron privilegios elevados en una ruta administrativa.
+  severity: crítico
+- line: 228
+  reason: Se detectó manipulación de registros.
+  severity: crítico
+- line: 229
+  reason: Se utilizaron privilegios elevados en un archivo sospechoso.
+  severity: crítico
+- line: 230
+  reason: Se ejecutó un comando sospechoso para establecer una reverse shell.
+  severity: crítico
+- line: 231
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 232
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 233
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 234
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 235
+  reason: Apagado del sistema solicitado por un servicio.
+  severity: informativo
+- line: 236
+  reason: Usuario autenticado desde una IP interna.
+  severity: informativo
+- line: 237
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: 238
+  reason: Conexión establecida a una IP externa conocida (DNS público).
+  severity: informativo
+- line: 239
+  reason: Conexión establecida a una IP externa sospechosa.
+  severity: informativo
+- line: 240
+  reason: Se inició el proceso sshd.
+  severity: informativo
+- line: 241
+  reason: Transferencia de datos a una IP externa.
+  severity: crítico
+- line: 242
+  reason: Transferencia de datos a una IP externa sospechosa.
+  severity: crítico
+- line: 243
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 244
+  reason: Se ejecutó un comando sospechoso.
+  severity: crítico
+- line: 245
+  reason: Se utilizaron privilegios elevados en una ubicación sensible.
+  severity: crítico
+- line: 246
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 247
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 248
+  reason: Se descargó un archivo a una ubicación sensible.
+  severity: crítico
+- line: 249
+  reason: Se ejecutó un comando sospechoso para descargar un binario.
+  severity: crítico
+- line: 250
+  reason: Apagado del sistema solicitado por un administrador.
+  severity: informativo
+- line: 251
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 252
+  reason: Se inició una conexión de reverse shell.
+  severity: crítico
+- line: 253
+  reason: Se ejecutó un comando sospechoso para descargar un script de shell.
+  severity: crítico
+- line: 254
+  reason: Se inició un proceso sospechoso que sugiere exfiltración de datos.
+  severity: crítico
+- line: null
