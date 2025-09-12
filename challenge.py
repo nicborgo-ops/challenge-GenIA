@@ -5,6 +5,7 @@ import json
 import argparse
 import requests
 import yaml
+import ipaddress
 from typing import List, Dict, Any
 
 # ---------------------------
@@ -15,11 +16,19 @@ def debug(msg: str, enabled: bool = False):
         print(f"[DEBUG] {msg}")
 
 def is_public_ip(ip: str) -> bool:
-    private_prefixes = ("10.", "192.168.", "172.16.", "172.17.", "172.18.", "172.19.",
-                        "172.20.", "172.21.", "172.22.", "172.23.", "172.24.",
-                        "172.25.", "172.26.", "172.27.", "172.28.", "172.29.",
-                        "172.30.", "172.31.", "127.", "169.254.")
-    return not ip.startswith(private_prefixes)
+    """Devuelve True si la IP es pública (ni privada, ni loopback, ni reservada)."""
+    try:
+        ip_obj = ipaddress.ip_address(ip)
+        return not (
+            ip_obj.is_private
+            or ip_obj.is_loopback
+            or ip_obj.is_reserved
+            or ip_obj.is_multicast
+            or ip_obj.is_link_local
+        )
+    except ValueError:
+        # Si la IP no es válida
+        return False
 
 def extract_ipv4s(text: str) -> List[str]:
     return re.findall(r"\b\d{1,3}(?:\.\d{1,3}){3}\b", text)
@@ -34,16 +43,20 @@ def clean_yaml_output(raw: str) -> str:
     return cleaned.strip()
 
 def fix_yaml_strings(raw: str) -> str:
-    """Corrige valores con ':' sin comillas en claves tipo reason:"""
+    """Asegura que reason/explanation siempre estén entre comillas dobles completas."""
     fixed_lines = []
     for line in raw.splitlines():
-        if ":" in line:
+        if line.strip().startswith(("reason:", "explanation:")):
             key, val = line.split(":", 1)
-            if key.strip() in ("reason", "explanation"):
-                val = val.strip()
-                if val and not (val.startswith('"') or val.startswith("'")):
-                    val = '"' + val.replace('"', "'") + '"'
-                line = f"{key}: {val}"
+            val = val.strip()
+            # Reemplazar comillas dobles internas por simples para no romper YAML
+            val = val.replace('"', "'")
+            # Forzar que empiece y termine con comillas dobles
+            if not val.startswith('"'):
+                val = '"' + val
+            if not val.endswith('"'):
+                val = val + '"'
+            line = f"{key}: {val}"
         fixed_lines.append(line)
     return "\n".join(fixed_lines)
 
@@ -90,6 +103,8 @@ def classify_all(events: List[Dict[str, Any]], provider: str, debug_enabled: boo
         "- La clave severity es criticidad de seguridad, no el nivel de log.\n"
         "- Siempre provee una reason entre comillas.\n"
         "- Si un evento indica reverse shell, exfiltración, log tampering o comandos sospechosos, debe clasificarse como CRÍTICO.\n\n"
+        '- Todos los valores de reason deben estar encerrados entre comillas dobles completas "...".'
+        "- Nunca cortar la línea ni omitir la comilla de cierre."
         f"### Logs:\n{logs_text}"
     )
 
@@ -118,10 +133,8 @@ def classify_all(events: List[Dict[str, Any]], provider: str, debug_enabled: boo
 # Reportes
 # ---------------------------
 def generate_reports(events: List[Dict[str, Any]], classifications: Dict[str, Any], vt_results: List[Dict[str, Any]], provider: str, debug_enabled: bool = False) -> Dict[str, str]:
-    criticos = [
-    e for e in classifications.get("eventos", [])
-    if isinstance(e, dict) and e.get("severity") == "crítico"
-]
+    criticos = [e for e in classifications.get("eventos", []) if e["severity"] == "crítico"]
+
     metrics = {
         "total_eventos": len(events),
         "criticos": len(criticos),
