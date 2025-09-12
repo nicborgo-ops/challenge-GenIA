@@ -18,14 +18,6 @@ Este script permite analizar archivos de logs (como `access.log` de Apache) util
 
 ---
 
-## 🛠️ Instalación
-
-```bash
-git clone https://github.com/tuusuario/analizador-logs-genai.git
-cd analizador-logs-genai
-pip install -r requirements.txt
-```
-
 ### Variables de entorno requeridas
 
 ```bash
