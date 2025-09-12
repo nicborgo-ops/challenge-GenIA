@@ -1,0 +1,330 @@
+1,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+2,informativo,Inicio de proceso bash, común en sistemas operativos.
+3,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+4,crítico,Usuario desconocido autenticado desde una IP interna, posible compromiso.
+5,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+6,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+7,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+8,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+9,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+10,informativo,Usuario jdoe autenticado desde una IP interna.
+11,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+12,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+13,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+14,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+15,crítico,Intento de acceso no autorizado a /tmp/tmpx837sh.sh, posible malware.
+16,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+17,crítico,Uso de privilegios elevados en /root/.bash_history, ruta sensible.
+18,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+19,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+20,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+21,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+22,informativo,Inicio del proceso sshd, proceso normal del sistema.
+23,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+24,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+25,crítico,Transferencia de datos (5.4MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+26,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+27,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+28,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+29,crítico,Archivo descargado en /admin/internal/reporting, ruta sensible.
+30,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+31,crítico,Archivo descargado en /tmp/tmpx837sh.sh, posible malware.
+32,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+33,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+34,crítico,Intento de acceso no autorizado a la ruta sensible /home/admin/.ssh
+35,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+36,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+37,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+38,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+39,informativo,Conexión establecida a la IP 10.10.1.3
+40,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+41,informativo,Apagado del sistema solicitado por el administrador.
+42,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+43,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+44,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+45,informativo,Apagado del sistema solicitado por el administrador.
+46,informativo,Inicio de proceso bash, común en sistemas operativos.
+47,informativo,Apagado del sistema solicitado por svc_logs.
+48,crítico,Apagado del sistema solicitado por usuario desconocido.
+49,informativo,Conexión establecida a la IP 10.10.1.3
+50,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+51,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+52,informativo,Usuario admin autenticado desde una IP interna.
+53,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+54,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+55,informativo,Apagado del sistema solicitado por svc_logs.
+56,crítico,Ejecución del comando bash /tmp/install.sh, script de instalación potencialmente malicioso.
+57,crítico,Usuario desconocido autenticado desde una IP interna, posible compromiso.
+58,informativo,Usuario svc_invoices autenticado desde una IP interna.
+59,crítico,Usuario desconocido autenticado desde una IP interna, posible compromiso.
+60,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+61,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+62,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+63,crítico,Ejecución del comando bash /tmp/install.sh, script de instalación potencialmente malicioso.
+64,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+65,crítico,Intento de acceso no autorizado a la ruta sensible /home/admin/.ssh
+66,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+67,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+68,crítico,Archivo descargado en /home/admin/.ssh, ruta sensible.
+69,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+70,informativo,Inicio del proceso sshd, proceso normal del sistema.
+71,crítico,Ejecución de comando sospechoso bash /tmp/install.sh, script de instalación potencialmente malicioso.
+72,informativo,Apagado del sistema solicitado por jdoe.
+73,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+74,informativo,Apagado del sistema solicitado por svc_invoices.
+75,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+76,crítico,Transferencia de datos (2.6MB) a la IP 10.10.1.3, sospechoso.
+77,informativo,Apagado del sistema solicitado por svc_logs.
+78,informativo,Inicio del proceso sshd, proceso normal del sistema.
+79,informativo,Inicio de proceso bash, común en sistemas operativos.
+80,crítico,Archivo descargado en /home/admin/.ssh, ruta sensible.
+81,crítico,Uso de privilegios elevados en /home/admin/.ssh, ruta sensible.
+82,informativo,Usuario svc_invoices autenticado desde una IP interna.
+83,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+84,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+85,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+86,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+87,informativo,Inicio del proceso sshd, proceso normal del sistema.
+88,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+89,crítico,Transferencia de datos (4.0MB) a la IP 10.10.1.3, sospechoso.
+90,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+91,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+92,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+93,crítico,Ejecución de comando sospechoso bash /tmp/install.sh, script de instalación potencialmente malicioso.
+94,informativo,Apagado del sistema solicitado por el administrador.
+95,crítico,Transferencia de datos (4.0MB) a la IP 10.10.1.3, sospechoso.
+96,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+97,informativo,Conexión establecida a la IP 203.0.113.50
+98,informativo,Inicio de proceso bash, común en sistemas operativos.
+99,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+100,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+101,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+102,crítico,Transferencia de datos (5.4MB) a la IP 203.0.113.50, sospechoso.
+103,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+104,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+105,crítico,Archivo descargado en /var/log/auth.log, ruta sensible.
+106,crítico,Transferencia de datos (3.6MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+107,crítico,Archivo descargado en /admin/internal/reporting, ruta sensible.
+108,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+109,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+110,informativo,Apagado del sistema solicitado por el administrador.
+111,crítico,Archivo descargado en /var/log/auth.log, ruta sensible.
+112,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+113,informativo,Inicio de proceso bash, común en sistemas operativos.
+114,informativo,Apagado del sistema solicitado por svc_logs.
+115,informativo,Apagado del sistema solicitado por jdoe.
+116,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+117,crítico,Intento de acceso no autorizado a /tmp/tmpx837sh.sh, posible malware.
+118,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+119,informativo,Usuario jdoe autenticado desde una IP externa.
+120,crítico,Transferencia de datos (3.2MB) a la IP 10.10.1.3, sospechoso.
+121,crítico,Intento de acceso no autorizado a /tmp/tmpx837sh.sh, posible malware.
+122,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+123,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+124,crítico,Transferencia de datos (4.9MB) a la IP sospechosa 185.23.91.10, sospechoso.
+125,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+126,crítico,Transferencia de datos (1.7MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+127,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+128,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+129,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+130,informativo,Conexión establecida a la IP 203.0.113.50
+131,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+132,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+133,crítico,Transferencia de datos (4.8MB) a la IP 203.0.113.50, sospechoso.
+134,crítico,Uso de privilegios elevados en /home/admin/.ssh, ruta sensible.
+135,crítico,Ejecución del comando bash /tmp/install.sh, script de instalación potencialmente malicioso.
+136,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+137,informativo,Inicio del proceso sshd, proceso normal del sistema.
+138,crítico,Archivo descargado en /home/admin/.ssh, ruta sensible.
+139,informativo,Apagado del sistema solicitado por jdoe.
+140,informativo,Apagado del sistema solicitado por el administrador.
+141,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+142,crítico,Uso de privilegios elevados en /root/.bash_history, ruta sensible.
+143,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+144,crítico,Transferencia de datos (1.3MB) a la IP 203.0.113.50, sospechoso.
+145,crítico,Archivo descargado en /admin/internal/reporting, ruta sensible.
+146,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+147,crítico,Archivo descargado en /var/log/auth.log, ruta sensible.
+148,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+149,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+150,crítico,Archivo descargado en /home/admin/.ssh, ruta sensible.
+151,crítico,Intento de acceso no autorizado a /tmp/tmpx837sh.sh, posible malware.
+152,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+153,crítico,Transferencia de datos (4.8MB) a la IP sospechosa 185.23.91.10, sospechoso.
+154,informativo,Inicio del proceso curl, proceso normal del sistema.
+155,informativo,Apagado del sistema solicitado por el administrador.
+156,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+157,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+158,crítico,Transferencia de datos (5.3MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+159,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+160,informativo,Usuario admin autenticado desde una IP interna.
+161,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+162,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+163,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+164,informativo,Usuario svc_invoices autenticado desde una IP externa.
+165,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+166,informativo,Apagado del sistema solicitado por svc_logs.
+167,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+168,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+169,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+170,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+171,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+172,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+173,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+174,crítico,Intento de acceso no autorizado a la ruta sensible /var/log/auth.log
+175,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+176,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+177,informativo,Usuario jdoe autenticado desde una IP interna.
+178,informativo,Conexión establecida a la IP 10.10.1.3
+179,crítico,Apagado del sistema solicitado por usuario desconocido.
+180,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+181,crítico,Archivo descargado en /admin/internal/reporting, ruta sensible.
+182,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+183,crítico,Transferencia de datos (1.5MB) a la IP sospechosa 185.23.91.10, sospechoso.
+184,informativo,Inicio de proceso bash, común en sistemas operativos.
+185,informativo,Usuario svc_logs autenticado desde una IP sospechosa.
+186,informativo,Conexión establecida a la IP 203.0.113.50
+187,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+188,crítico,Ejecución del comando bash /tmp/install.sh, script de instalación potencialmente malicioso.
+189,informativo,Apagado del sistema solicitado por jdoe.
+190,informativo,Conexión establecida a la IP 203.0.113.50
+191,informativo,Conexión establecida a la IP 10.10.1.3
+192,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+193,informativo,Usuario svc_invoices autenticado desde una IP interna.
+194,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+195,informativo,Apagado del sistema solicitado por jdoe.
+196,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+197,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+198,crítico,Intento de acceso no autorizado a la ruta sensible /home/admin/.ssh
+199,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+200,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+201,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+202,informativo,Inicio del proceso curl, proceso normal del sistema.
+203,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+204,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+205,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+206,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+207,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+208,crítico,Archivo descargado en /tmp/tmpx837sh.sh, posible malware.
+209,informativo,Usuario jdoe autenticado desde una IP interna.
+210,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+211,crítico,Archivo descargado en /tmp/tmpx837sh.sh, posible malware.
+212,crítico,Transferencia de datos (5.0MB) a la IP sospechosa 185.23.91.10, sospechoso.
+213,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+214,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+215,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+216,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+217,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+218,informativo,Usuario svc_invoices autenticado desde una IP interna.
+219,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+220,crítico,Ejecución de comando sospechoso bash /tmp/install.sh, script de instalación potencialmente malicioso.
+221,informativo,Inicio del proceso sshd, proceso normal del sistema.
+222,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+223,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+224,crítico,Transferencia de datos (5.5MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+225,informativo,Conexión establecida a la IP 203.0.113.50
+226,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+227,crítico,Uso de privilegios elevados en /admin/internal/reporting, ruta sensible.
+228,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+229,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+230,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+231,informativo,Apagado del sistema solicitado por el administrador.
+232,informativo,Apagado del sistema solicitado por svc_invoices.
+233,crítico,Transferencia de datos (4.1MB) a la IP 203.0.113.50, sospechoso.
+234,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+235,informativo,Apagado del sistema solicitado por svc_invoices.
+236,informativo,Usuario jdoe autenticado desde una IP interna.
+237,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+238,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+239,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+240,informativo,Inicio del proceso sshd, proceso normal del sistema.
+241,crítico,Transferencia de datos (3.3MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+242,crítico,Transferencia de datos (4.4MB) a la IP sospechosa 185.23.91.10, sospechoso.
+243,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+244,crítico,Ejecución de comando sospechoso bash /tmp/install.sh, script de instalación potencialmente malicioso.
+245,crítico,Uso de privilegios elevados en /home/admin/.ssh, ruta sensible.
+246,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+247,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+248,crítico,Archivo descargado en /var/log/auth.log, ruta sensible.
+249,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+250,informativo,Apagado del sistema solicitado por el administrador.
+251,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+252,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+253,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+254,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+255,crítico,Transferencia de datos (4.0MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+256,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+257,crítico,Ejecución de comando sospechoso nc que inicia una conexión inversa a una IP sospechosa.
+258,informativo,Inicio de proceso bash, común en sistemas operativos.
+259,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+260,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+261,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+262,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+263,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+264,informativo,Inicio del proceso sshd, proceso normal del sistema.
+265,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+266,informativo,Usuario svc_logs autenticado desde una IP sospechosa.
+267,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+268,informativo,Inicio del proceso curl, proceso normal del sistema.
+269,crítico,Transferencia de datos (5.1MB) a la IP pública de Google DNS (8.8.8.8), sospechoso.
+270,informativo,Inicio del proceso curl, proceso normal del sistema.
+271,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+272,informativo,Usuario jdoe autenticado desde una IP interna.
+273,informativo,Apagado del sistema solicitado por svc_logs.
+274,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+275,crítico,Transferencia de datos (4.9MB) a la IP 10.10.1.3, sospechoso.
+276,informativo,Conexión establecida a la IP 10.10.1.3
+277,informativo,Usuario svc_logs autenticado desde una IP sospechosa.
+278,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+279,informativo,Conexión establecida a la IP sospechosa 185.23.91.10
+280,informativo,Usuario admin autenticado desde una IP interna.
+281,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+282,crítico,Ejecución de comando sospechoso bash /tmp/install.sh, script de instalación potencialmente malicioso.
+283,crítico,Transferencia de datos (5.2MB) a la IP sospechosa 185.23.91.10, sospechoso.
+284,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+285,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+286,crítico,Ejecución del comando /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+287,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+288,informativo,Conexión establecida a la IP 203.0.113.50
+289,crítico,Uso de privilegios elevados en /root/.bash_history, ruta sensible.
+290,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+291,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+292,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+293,crítico,Archivo descargado en /var/log/auth.log, ruta sensible.
+294,crítico,Uso de privilegios elevados en /admin/internal/reporting, ruta sensible.
+295,crítico,Uso de privilegios elevados en /var/log/auth.log, ruta sensible.
+296,informativo,Inicio del proceso sshd, proceso normal del sistema.
+297,informativo,Apagado del sistema solicitado por svc_logs.
+298,informativo,Usuario admin autenticado desde una IP sospechosa.
+299,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+300,crítico,Archivo descargado en /home/admin/.ssh, ruta sensible.
+301,crítico,Intento de acceso no autorizado a /tmp/tmpx837sh.sh, posible malware.
+302,crítico,Archivo descargado en /tmp/tmpx837sh.sh, posible malware.
+303,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+304,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+305,crítico,Transferencia de datos (3.5MB) a la IP 10.10.1.3, sospechoso.
+306,crítico,Archivo descargado en /root/.bash_history, ruta sensible.
+307,crítico,Apagado del sistema solicitado por usuario desconocido.
+308,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+309,crítico,Uso de privilegios elevados en /tmp/tmpx837sh.sh, posible ejecución de malware.
+310,informativo,Conexión establecida a la IP 10.10.1.3
+311,informativo,Apagado del sistema solicitado por el administrador.
+312,crítico,Manipulación de logs detectada, posible ocultamiento de actividad maliciosa.
+313,crítico,Ejecución de comando curl que descarga un script desde una IP sospechosa.
+314,crítico,Inicio de proceso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+315,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+316,informativo,Conexión establecida a la IP pública de Google DNS (8.8.8.8).
+317,crítico,Intento de acceso no autorizado a la ruta sensible /root/.bash_history
+318,crítico,Ejecución de comando sospechoso curl que descarga un script desde una IP sospechosa.
+319,crítico,Uso de privilegios elevados en /home/admin/.ssh, ruta sensible.
+320,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+321,crítico,Intento de acceso no autorizado a la ruta sensible /admin/internal/reporting
+322,informativo,Conexión establecida a la IP 10.10.1.3
+323,crítico,Transferencia de datos (3.4MB) a la IP sospechosa 185.23.91.10, sospechoso.
+324,informativo,Usuario svc_invoices autenticado desde una IP interna.
+325,crítico,Ejecución de comando sospechoso wget que descarga un archivo desde un dominio malicioso.
+326,crítico,Ejecución de comando sospechoso /usr/bin/python3 exfil.py, sugiere exfiltración de datos.
+327,crítico,Conexión de reverse shell iniciada, indica posible control remoto.
+328,informativo,Apagado del sistema solicitado por svc_invoices.
+329,crítico,Transferencia de datos (2.8MB) a la IP sospechosa 185.23.91.10, sospechoso.
+330,crítico,Intento de acceso no autorizado a la ruta
