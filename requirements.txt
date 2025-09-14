@@ -1,0 +1,5 @@
+requests==2.32.3
+python-dateutil==2.9.0
+ipaddress==1.0.23
+argparse==1.4.0
+openai==1.35.10
